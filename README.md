@@ -1,7 +1,7 @@
 # BATTLESHIP.
 Hola, mi nombre es Alejandro Granados Moncayo, soy estudiante de primer semestre en Sistemas Computacionales. 
 Este es mi proyecto "Grande", es el popular juego de mesa llamado Batalla Naval, esta programado en Python. 
-También cabe aclar que el código base pertenece a gbrough y esta en su repertorio de Git Hub anexado a continuación: https://github.com/gbrough
+También cabe acalar que el código base pertenece a gbrough y esta en su repertorio de Git Hub anexado a continuación: https://github.com/gbrough
 También anexo su canal de youtube en el cuál el explica el código "Base": https://www.youtube.com/@KnowledgeMavens 
 
 # CAMBIOS. 
