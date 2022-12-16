@@ -1,0 +1,119 @@
+Hola, mi nombre es Alejandro Granados Moncayo, soy estudiante de la carrera de Ingenieria en Sistemas 
+Computacionales, voy en primer semestre y en esta ocasión el proyecto final fue recrear el famoso juego 
+de mesa llamado "Batalla Naval", en esta ocasión esta programado en el lenguaje Python. 
+
+Les adjunto para que sirve cada función y sus parametros, el uso de este código es libre y me gustaría que agregarna más cosas o crear mejoras en las 
+funciones.  
+
+'''LIBRERIAS'''
+import random
+import msvcrt
+
+'''FUNCIONES'''
+def limpiar_matriz(tablero):
+    """
+    Esta función limpia la matriz y la restablece a espacios vacios.
+    Parámetro: tablero
+    """
+
+
+def impresion_del_tablero(tablero): 
+    '''Imprime el tablero con las letras de la A hasta la K en la parte superior del tablero. 
+    Imprime los números del 1 al 10 a la izquierda del tablero
+    Parámetros: El tablero'''
+
+
+
+def posicion_de_los_barcos(tablero):
+    '''
+    Esta función toma como argumento el un tablero y coloca los barcos en él. 
+    Parámetro: El tablero en el que se colocaran los barcos. '''
+
+
+
+def comprobación_de_ajustes_del_barco(TAMAÑO_DEL_BARCO, fila, columna, orientacion):
+    '''Esta función revisa si el barco se encuentra dentro de las dimensiones permitidas en el tablero (10*10).
+    Parámetro: TAMAÑO_DEL_BARCO: El tamaño del barco. 
+    Parámetro: fila: El número de la fila de la "Proa" del barco (Esto para saber si no se sale de las dimensiones.)
+    Parámetro: columna: El número de la columna del barco. 
+    Parámetro:  orientacion: "H" o "V"
+    Retorna: True o False'''
+
+
+def superposiciones_del_barco(tablero, fila, columna, orientacion, tamaño_de_los_barcos):
+    """
+    Esta función devuelve un valor booleano True si el barco esta superposicionado con otro, en caso de que no devuelve un valor Booleano Falso.
+    Parámetro: tablero: El tablero de la IA o del Usuario. 
+    Parámetro: fila: La fila del barco. 
+    Parámetro: columna:La columna donde se encuentra el barco. 
+    Parámetro: orientacion: "H" or "V"
+    Parámetro: tamaño_de_los_barcos: una lista del tamaño de los barcos. 
+    Retorna: Cierto o Falso. 
+    """
+
+
+def entrada_de_usuario(lugar_del_barco):
+    '''Esta función toma un valor Booleano y regresa una tupla de tres valores si el Booleano es verdadero (Fila, columna, orientación). 
+    Si el Booleano es falso regresa una tupla de dos valores (Fila, columna).
+    Parámetros: lugar_del_barco: Este tiene un valor Booleano que determina si el usuario esta colocando un barco.
+    Parámetro: lugar_del_barco 
+    :retorna: La fila, la columna y la orientación.'''
+
+
+ 
+def turnos(tablero):
+    """
+    Esta función sirve para los turnos de la IA y el jugador, si el tablero es el del jugador, entonces este tendrá la oportunidad de ingresar las coordenadas deseadas para disparar y si el tablero es el de la I.A entonces la I.A de manera random ingresara coordanas para intentar acertar en el tablero del usuario. Si cualquiera de los dos jugadores acierta en la coordenada donde se encuente un barco (x), entonces automaticamente se cambiará por un "@", si el disparo falla entonces se imprentara un "-".
+    
+    Parámetro: tablero: El tablero donde esta jugando el juador o la IA. 
+    """
+
+
+
+def contador_de_hits(tablero):
+    """
+    Esta función cuenta los hits que hay en el tablero
+    Parámetro: Tablero.
+    Retorna: Los números de hits.
+    """
+
+#------------------*----------------------*-----------------------------*--------------------------------*-------------------------
+'''Funciones para modo Jugador vs Jugador'''
+
+def posicion_de_los_barcos_dos_jugadores(tablero): 
+    """
+    Esta función toma como argumento un tablero y luego le pide al usuario que coloque un barco de cierto tamañaño en el. 
+    Después le pide al usuario que ingrese, la fila, la columna y la horientación de su barco. 
+    Luego la función comprobación_de_ajustes_del_barco() comprueba si el barco se puede colocar en la posición que el usuario eligió.
+    Si la posición es correcta entonces se imprentará en el barco el simbolo "X". 
+    En caso de lo contrario (Si no es correcto el posicionamiento), se le pide al usuario que ingrese la posición nuevamente.
+    Esta función repite el mismo proceso para cada barco que se encuentre dentro de nuestra lista. 
+    Parámetro: Tablero: El tablero del jugador uno o en su defecto el del jugador dos. 
+    """
+  
+
+def turnos_dos_jugadores(tablero_hits,tablero_usuario,nombre):
+    """
+    Esta función toma un tablero como argumento y luego le pida al usuario que inserte una fila y una columna.
+    Si la función de entrada_de_usuario() no es válida esta función se volverá a llamar a sí misma para que se inserten los datos correctos.
+    Si la entrada del usuario es válida comprueba si el usuario acertó a un barco, si es así esta función imprimira un mensaje diciendo que el usario acertó e imprime un '@' en la posición indicada, sinoves así entonces imprime que el usario falló y un símbolo '-' en la posición indicada. 
+    Este proceso también es repetido para la entrada del segundo usuario. 
+    Parámetros: El tablero en el que esta jugando el jugador (Tablero de hits). 
+    Parámetros: Tablero del jugador contrario. (posiciones de barcos)
+    Parámetros: Nombre. 
+    """
+    
+
+
+''' Funciones Modo de juego Jugador vs Jugador Random'''
+def posicion_de_los_barcos_random(tablero): 
+    """
+    Esta función toma como argumento un tablero y luego le pide al usuario que coloque un barco de cierto tamañaño en el. 
+    Después le pide al usuario que ingrese, la fila, la columna y la horientación de su barco. 
+    Luego la función comprobación_de_ajustes_del_barco() comprueba si el barco se puede colocar en la posición que el usuario eligió.
+    Si la posición es correcta entonces se imprentará en el barco el simbolo "X". 
+    En caso de lo contrario (Si no es correcto el posicionamiento), se le pide al usuario que ingrese la posición nuevamente.
+    Esta función repite el mismo proceso para cada barco que se encuentre dentro de nuestra lista. 
+    Parámetro: Tablero: El tablero del jugador uno o en su defecto el del jugador dos. 
+    """
+     
