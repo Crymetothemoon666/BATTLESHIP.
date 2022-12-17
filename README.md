@@ -21,3 +21,9 @@ Te invito a que descargas el archivo .py e intentes mejorar el programa :)
 
 # VISTA DEL JUEGO.
 ![Anotación 2022-12-17 012717](https://user-images.githubusercontent.com/119845172/208233012-b1a107b3-3843-40db-90b9-27a854f2baeb.png)
+
+# Player vs Player. 
+![Player vs pplayer ](https://user-images.githubusercontent.com/119845172/208233161-f7fe85ad-7f95-4280-b1d7-31ae6e3d35a9.png)
+
+# Player vs Player Random. 
+![Modo ramdom ](https://user-images.githubusercontent.com/119845172/208233276-83e69ecd-4913-4a55-8a32-4dfab9520bf9.png)
