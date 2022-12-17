@@ -12,5 +12,6 @@ Este es mi primer proyecto "grande", es el popular juego de mesa llamado Batalla
 * Se modificarón las dos funciones pricipales para que el loop de los turnos y la finalización del programa fuera diferente. 
 * Se agrego un loop para que el usario pueda decidir si después de finalizar el juego quiere regresar al menú inicial. 
 * Cambió de nombre de variables y traducción de funciones del inglés al español. 
-* Se agregon sub-menús en las instrucciones para darle al usuario una "Interfaz" un poco más amigable y explorable. 
+* Se agregon sub-menús en las instrucciones para darle al usuario una "Interfaz" un poco más amigable y explorable.
+* Se agrego un modo random jugador vs jugador. 
 
