@@ -81,29 +81,27 @@ def contador_de_hits(tablero):
 '''Funciones para modo Jugador vs Jugador'''
 
 def posicion_de_los_barcos_dos_jugadores(tablero): 
-    """
-    Esta función toma como argumento un tablero y luego le pide al usuario que coloque un barco de cierto tamañaño en el. 
-    Después le pide al usuario que ingrese, la fila, la columna y la horientación de su barco. 
-    Luego la función comprobación_de_ajustes_del_barco() comprueba si el barco se puede colocar en la posición que el usuario eligió.
-    Si la posición es correcta entonces se imprentará en el barco el simbolo "X". 
-    En caso de lo contrario (Si no es correcto el posicionamiento), se le pide al usuario que ingrese la posición nuevamente.
-    Esta función repite el mismo proceso para cada barco que se encuentre dentro de nuestra lista. 
-    Parámetro: Tablero: El tablero del jugador uno o en su defecto el del jugador dos. 
-    """
+"""
+Esta función toma como argumento un tablero y luego le pide al usuario que coloque un barco de cierto tamañaño en el. 
+Después le pide al usuario que ingrese, la fila, la columna y la horientación de su barco. 
+Luego la función comprobación_de_ajustes_del_barco() comprueba si el barco se puede colocar en la posición que el usuario eligió.
+Si la posición es correcta entonces se imprentará en el barco el simbolo "X". 
+En caso de lo contrario (Si no es correcto el posicionamiento), se le pide al usuario que ingrese la posición nuevamente.
+Esta función repite el mismo proceso para cada barco que se encuentre dentro de nuestra lista. 
+Parámetro: Tablero: El tablero del jugador uno o en su defecto el del jugador dos. 
+"""
   
-
 def turnos_dos_jugadores(tablero_hits,tablero_usuario,nombre):
-    """
-    Esta función toma un tablero como argumento y luego le pida al usuario que inserte una fila y una columna.
-    Si la función de entrada_de_usuario() no es válida esta función se volverá a llamar a sí misma para que se inserten los datos correctos.
-    Si la entrada del usuario es válida comprueba si el usuario acertó a un barco, si es así esta función imprimira un mensaje diciendo que el usario acertó e imprime un '@' en la posición indicada, sinoves así entonces imprime que el usario falló y un símbolo '-' en la posición indicada. 
-    Este proceso también es repetido para la entrada del segundo usuario. 
-    Parámetros: El tablero en el que esta jugando el jugador (Tablero de hits). 
-    Parámetros: Tablero del jugador contrario. (posiciones de barcos)
-    Parámetros: Nombre. 
-    """
+"""
+Esta función toma un tablero como argumento y luego le pida al usuario que inserte una fila y una columna.
+Si la función de entrada_de_usuario() no es válida esta función se volverá a llamar a sí misma para que se inserten los datos correctos.
+Si la entrada del usuario es válida comprueba si el usuario acertó a un barco, si es así esta función imprimira un mensaje diciendo que el usario acertó e imprime un '@' en la posición indicada, sinoves así entonces imprime que el usario falló y un símbolo '-' en la posición indicada. 
+Este proceso también es repetido para la entrada del segundo usuario. 
+Parámetros: El tablero en el que esta jugando el jugador (Tablero de hits). 
+Parámetros: Tablero del jugador contrario. (posiciones de barcos)
+Parámetros: Nombre. 
+"""
     
-
 
 ''' Funciones Modo de juego Jugador vs Jugador Random'''
 def posicion_de_los_barcos_random(tablero): 
@@ -116,4 +114,13 @@ def posicion_de_los_barcos_random(tablero):
     Esta función repite el mismo proceso para cada barco que se encuentre dentro de nuestra lista. 
     Parámetro: Tablero: El tablero del jugador uno o en su defecto el del jugador dos. 
     """
+
+
+def entrada_de_usuario_ramdon(lugar_del_barco):
+    ''' Toma una lista de tuplas como argumento y devuelve una tupla de dos enteros
+    
+    parámetro lugar_del_barco: Esta es una lista de tuplas que contienen las coordenadas del barco
+    :return: la fila y la columna de la entrada del usuario.
+    '''
+
      
