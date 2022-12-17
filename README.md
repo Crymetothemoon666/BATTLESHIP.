@@ -18,3 +18,6 @@ Este es mi primer proyecto "grande", es el popular juego de mesa llamado Batalla
 # AGREGAR O MODIFICAR EL CÓDIGO. 
 Cualquiera es libre de copiar y modificar el código, siempre y cuando el código quede funcional y se agregue la descripción de las funciones o lineas agregadas. 
 Te invito a que descargas el archivo .py e intentes mejorar el programa :) 
+
+# VISTA DEL JUEGO.
+![Anotación 2022-12-17 012717](https://user-images.githubusercontent.com/119845172/208233012-b1a107b3-3843-40db-90b9-27a854f2baeb.png)
