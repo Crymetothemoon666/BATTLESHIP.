@@ -27,3 +27,6 @@ Te invito a que descargas el archivo .py e intentes mejorar el programa :)
 
 # Player vs Player Random. 
 ![Modo ramdom ](https://user-images.githubusercontent.com/119845172/208233276-83e69ecd-4913-4a55-8a32-4dfab9520bf9.png)
+
+# Observaciones. 
+* *--- Algunas veces el ejecutable marca errores inexistentes, solo cierra y reinicia el juego ---*
