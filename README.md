@@ -15,6 +15,6 @@ Este es mi primer proyecto "grande", es el popular juego de mesa llamado Batalla
 * Se agregon sub-menús en las instrucciones para darle al usuario una "Interfaz" un poco más amigable y explorable.
 * Se agrego un modo random jugador vs jugador. 
 
-#AGREGAR O MODIFICAR EL CÓDIGO. 
+# AGREGAR O MODIFICAR EL CÓDIGO. 
 Cualquiera es libre de copiar y modificar el código, siempre y cuando el código quede funcional y se agregue la descripción de las funciones o lineas agregadas. 
 Te invito a que descargas el archivo .py e intentes mejorar el programa :) 
